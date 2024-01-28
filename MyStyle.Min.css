@@ -142,6 +142,8 @@ box-shadow: 0 -6px 18px 0 rgba(9,32,76,.08); }
 
 .sticky-ads .sticky-ads-close svg { width: 22px; height: 22px; fill: #000; } .sticky-ads .sticky-ads-content { overflow: hidden; display: block; position: relative; height: fit-content; width: fit-content; margin-right: 8px; margin-left: 8px; }
 
+<!----- FarruMovies-MyPostGenerator ----->
+
   #myPost{user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;pointer-events:none;padding:20px 28px;border:0;border-radius:6px;box-shadow:0 0 8px 0 rgba(0,0,0,.08);display:block;background-color:#fff}@media all and (max-width:576px){#myPost{padding:24px 28px}}.iftbtn{flex:1 1 auto;margin:10px;padding:8px 16px;text-align:center;transition:.5s;background-size:200% auto;color:white;font-family:georgia;text-shadow:0 0 10px rgba(0,0,0,0.2);box-shadow:0 0 20px #eee;border-radius:50px}.iftbtn:hover{background-position:right center}.iftbtn-5{background-image: linear-gradient(to right,#ffecd2 0,#fcb69f 51%,#ffecd2 100%);}.ifth1{font-family:georgia;text-align:center;text-shadow:2px 2px 4px rgba(0,0,0,0.3);color:#000;}.ift-form{background-color:#fff;text-align:center;margin:auto;padding:20px 28px;border:0;border-radius:6px;box-shadow:0 0 8px 0 rgba(0,0,0,.08);width: 90%;display:block}@media all and (max-width:576px){.ift-form{padding:24px 28px}}.ift-form .itsfarmantech-gdrive-group{margin-bottom:1rem;font-family:georgia}.itsfarmantech-gdrive-group label{display:inline-block;margin-bottom:10px;font-size:14px;margin-top:5px}.ift-form input.itsfarmantech-tools-control{font-family:georgia;display:block;width: -webkit-fill-available;height:calc(1.7em+.75rem+2px);padding:.375rem .75rem;font-size:14px;font-weight:400;line-height:1.1;color:#495057;background-color:#fff;background-clip:padding-box;border:2px ridge #ced4da;border-radius:6px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
 select.itsfarmantech-tools-control{font-family:georgia;display:block;width: -webkit-fill-available;height:calc(1.7em+.75rem+2px);padding:.375rem .75rem;font-size:14px;font-weight:400;line-height:1.1;color:#495057;background-color:#fff;background-clip:padding-box;border:2px ridge #ced4da;border-radius:6px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
 textarea{background-color:#f7f7f7;width:100%;height:200px;margin-bottom:10px;padding:8px;box-sizing:border-box;border:1px solid #ddd;border-radius:4px;resize:vertical}textarea[readonly]{background-color:#f7f7f7}
@@ -208,3 +210,5 @@ div.imdb_left{float:none;}
 .imdb_white div.imdb_right{display:block!important;margin-top:5px;width:100%;overflow:hidden!important;}
 .imdb_white>div.imdb_right>span#movie_title{font-size:15px;display:block!important;}
 }
+
+<!----- FarruMovies-MyPostGenerator ----->  
