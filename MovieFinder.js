@@ -67,14 +67,12 @@ document.getElementById('formulario').addEventListener('submit', function (e) {
     iframeContainer.innerHTML = '';
     const searchUrls = [
       `https://katmoviehd.foo/?s=${encodeURIComponent(query)}`,
-      `https://moviesmod.band/search/${encodeURIComponent(query)}`,
       `https://bollyflix.band/search/${encodeURIComponent(query)}`,
       `https://mkvcinemas.bet/?s=${encodeURIComponent(query)}`,
       `https://uhdmovies.tel/search/${encodeURIComponent(query)}`,
       `https://topmovies.tel/search/${encodeURIComponent(query)}`,
       `https://katdrama.com/?s=${encodeURIComponent(query)}`,
       `https://pikahd.com/?s=${encodeURIComponent(query)}`,
-      `https://animeflix.pm/?s=${encodeURIComponent(query)}`,
     ];
     searchUrls.forEach(url => {
       if (url.includes('moviesmod')) {
