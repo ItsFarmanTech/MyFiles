@@ -73,7 +73,6 @@ document.getElementById('formulario').addEventListener('submit', function (e) {
       `https://topmovies.tel/search/${encodeURIComponent(query)}`,
       `https://katdrama.com/?s=${encodeURIComponent(query)}`,
       `https://pikahd.com/?s=${encodeURIComponent(query)}`,
-      `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`,
     ];
     searchUrls.forEach(url => {
       if (url.includes('youtube.com')) {
