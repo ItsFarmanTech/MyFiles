@@ -76,7 +76,7 @@ document.getElementById('formulario').addEventListener('submit', function (e) {
       `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`,
     ];
     searchUrls.forEach(url => {
-      if (url.includes('moviesmod')) {
+      if (url.includes('youtube.com')) {
         window.open(url, '_blank');
       } else {
         const iframe = document.createElement('iframe');
