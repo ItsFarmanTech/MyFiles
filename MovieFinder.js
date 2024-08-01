@@ -59,8 +59,19 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   checkLogin();
 });
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    handleFormSubmit();
+  }
+});
+
 document.getElementById('formulario').addEventListener('submit', function (e) {
   e.preventDefault();
+  handleFormSubmit();
+});
+
+function handleFormSubmit() {
   const query = document.getElementById('query').value.trim();
   if (query) {
     const iframeContainer = document.getElementById('iframe-container');
@@ -84,7 +95,7 @@ document.getElementById('formulario').addEventListener('submit', function (e) {
       }
     });
   }
-});
+}
 function ResetB(){
   document.getElementById('query').value = '';
   const iframeContainer = document.getElementById('iframe-container');
