@@ -77,11 +77,11 @@ function handleFormSubmit() {
     const iframeContainer = document.getElementById('iframe-container');
     iframeContainer.innerHTML = '';
     const searchUrls = [
-      `https://katmoviehd.foo/?s=${encodeURIComponent(query)}`,
-      `https://bollyflix.band/search/${encodeURIComponent(query)}`,
-      `https://mkvcinemas.bet/?s=${encodeURIComponent(query)}`,
-      `https://uhdmovies.tel/search/${encodeURIComponent(query)}`,
-      `https://topmovies.tel/search/${encodeURIComponent(query)}`,
+      `https://katmoviehd.fyi/?s=${encodeURIComponent(query)}`,
+      `https://bollyflix.how/search/${encodeURIComponent(query)}`,
+      `https://mkvcinemas.cat/?s=${encodeURIComponent(query)}`,
+      `https://uhdmovies.dad/search/${encodeURIComponent(query)}`,
+      `https://topmovies.dad/search/${encodeURIComponent(query)}`,
       `https://katdrama.com/?s=${encodeURIComponent(query)}`,
       `https://pikahd.com/?s=${encodeURIComponent(query)}`,
     ];
